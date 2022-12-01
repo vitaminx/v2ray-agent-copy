@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# wget -P /tmp -N --no-check-certificate "https://raw.githubusercontent.com/panhuanghe/v2ray-agent/master/shell/ufw_remove.sh" && chmod 700 /tmp/ufw_remove.sh && /tmp/ufw_remove.sh
+# wget -P /tmp -N --no-check-certificate "https://raw.githubusercontent.com/vitaminx/v2ray-agent-copy/master/shell/ufw_remove.sh" && chmod 700 /tmp/ufw_remove.sh && /tmp/ufw_remove.sh
 systemctl stop ufw
 systemctl disable ufw
 iptables -F

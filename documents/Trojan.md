@@ -23,7 +23,7 @@
 - 1.配置DNS解析
 - 2.安装Nginx
 - 3.Let’s Encrypt生成证书
-- 4.参考[此链接](https://github.com/panhuanghe/v2ray-agent/blob/master/Cloudflare_Full.md#1%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C)中【1.准备工作】和【2.vps配置Nginx、https】。
+- 4.参考[此链接](https://github.com/vitaminx/v2ray-agent-copy/blob/master/Cloudflare_Full.md#1%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C)中【1.准备工作】和【2.vps配置Nginx、https】。
 
 ## 2.安装Trojan
 ### 1.执行下方命令
@@ -78,7 +78,7 @@ systemctl stop trojan
 
 # 4.配置与V2Ray并存【并保证网站伪装】
 - 1.需要配合CloudFlare
-- 2.需要使用【方法1】配置V2Ray[点此查看](https://github.com/panhuanghe/v2ray-agent/blob/master/Cloudflare_Flexible.md)
+- 2.需要使用【方法1】配置V2Ray[点此查看](https://github.com/vitaminx/v2ray-agent-copy/blob/master/Cloudflare_Flexible.md)
 
 ## 1.思路
 - 1.配置两个不同的二级域名
@@ -87,14 +87,14 @@ systemctl stop trojan
 
 ## 2.示例
 ### 1.CloudFlare SSL/TLS mode
-<img src='https://raw.githubusercontent.com/panhuanghe/v2ray-agent/master/fodder/cloudflare_tls_Flexible.png' width=400>
+<img src='https://raw.githubusercontent.com/vitaminx/v2ray-agent-copy/master/fodder/cloudflare_tls_Flexible.png' width=400>
 
 ### 2.CloudFlare DNS Trojan&V2Ray
 - 1.blog2 指向Trojan的443
 - 2.blog 则通过CloudFlare指向VPS的80
 - 3.指向的ip是一样的，一个通过CloudFlare代理一个则不代理。
 
-<img src='https://raw.githubusercontent.com/panhuanghe/v2ray-agent/master/fodder/CloudFlare Trojan V2Ray.png' width=400>
+<img src='https://raw.githubusercontent.com/vitaminx/v2ray-agent-copy/master/fodder/CloudFlare Trojan V2Ray.png' width=400>
 
 ### 3.Nginx config
 ```

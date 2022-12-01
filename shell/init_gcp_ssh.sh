@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# bash <(curl -L -s https://raw.githubusercontent.com/panhuanghe/v2ray-agent/master/init_GCP_ssh.sh)
+# bash <(curl -L -s https://raw.githubusercontent.com/vitaminx/v2ray-agent-copy/master/init_GCP_ssh.sh)
 if [[ -z `find ~/.ssh -name authorized_keys` ]]
 then
     echo -e "\033[36m 初始化 authorized_keys \033[0m"
